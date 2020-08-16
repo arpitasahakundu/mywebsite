@@ -1,0 +1,21 @@
+html,body{
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+	display: inline-table;
+	justify-content: center bottom;
+	align-items: center;
+	font-family: 'Source Code Pro',monospace;
+	background: linear-gradient(90deg, rgba(84,150,255,.78),rgba(135,57,229,.85)),bottom;
+	background-size: cover;
+	color:#fff;
+}
+

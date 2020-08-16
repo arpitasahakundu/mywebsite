@@ -1,0 +1,163 @@
+html,body{
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	 max-width: 200%;
+}
+
+body {
+
+	line-height: 1.6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Source Code Pro',monospace;
+	background: linear-gradient(90deg, rgba(84,150,255,.78),rgba(135,57,229,.85)),center bottom;
+	background-size: cover;
+	color:#fff;
+}
+/*profile*/
+
+.Profile__wrap{
+	text-align: center;
+	background-attachment: fixed;
+
+}
+
+.Profile__photo{
+	width: 200px;
+	height: 300px;
+	border-radius:50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+	box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+
+}
+.Profile__info h1{
+	font-size: 30px;
+	display: inline-block;
+	font-family: 'Source Sans Pro', Sans-serif;
+	font-weight: 800;
+	position: relative;
+
+
+}
+.Profile__info h1::after{
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 380px;
+	background-color: #fff;
+	left: -10px;
+	bottom: -1px;
+
+}
+.profile__intro{
+	padding: 1rem 10px 1.5rem;
+	max-width: 500px;
+	line-height: 1.5;
+	color: #f1f5ff;
+	font-style: Comic Sans MS Header; 
+	text-align:left; 
+	margin-top: 2 rem;
+	font-family: cursive;
+
+}
+.Profile_intro a{
+	color: #fff;
+
+}
+.contact{
+	display: inline-block;
+	background-color: #fff;
+	radius: 99rem;
+	margin: 1em;
+	padding: 8px 2rem;
+	text-decoration: none;
+	color: #4a5568;
+	border: 2px solid #fff;
+	border-r
+
+}
+.about{
+	display: inline-block;
+	background-color: #fff;
+	padding: 8px 2rem;
+	text-decoration: none;
+	color: #4a5568;
+	border: 2px solid #fff;
+	border-radius: 99rem;
+	margin: 1em;
+}
+.contact:hover{
+	background-color: transparent;
+	color: #fff;
+
+}
+.about:hover{
+	background-color: transparent;
+	color: #fff
+}
+
+.Profile__contact li{
+	display: inline-block;
+}
+
+.social__links{
+	margin-top: 1rem;
+	list-style: none;
+
+}
+
+.social__links li{
+	display: inline-grid;
+	padding: 0 5px;
+}
+
+.social__links a{
+	font-size: 14px;
+	color: #f5f5f5;
+	text-decoration: none;
+}
+
+.social__links a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
+@media(min-width: 1024px) {
+	.Profile__wrap{
+		width: 900px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction:row-reverse;
+
+	}
+	.Profile__info {
+		text-align: left;
+		flex-basis: 70%;
+		width: 70%;
+
+	}
+	.profile__intro{
+		padding: 1rem 0 1.5rem;
+
+	}
+	
+}
+
+
+
+
+
+
+

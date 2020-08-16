@@ -1,0 +1,41 @@
+html,body{
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+
+	line-height: 1.6;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Source Code Pro',monospace;
+	background: linear-gradient(90deg, rgba(84,150,255,.78),rgba(135,57,229,.85)),center bottom;
+	background-size: cover;
+	color:#fff;
+	
+}
+
+
+
+.main{
+
+	background-color: #5c755e;
+	margin: 10px;
+	font-size: 110%;
+	border-radius: 5px;
+	padding: 40px 100px;
+}
+h1,h2,h3{
+	font-size: 120%;
+	font-style: cursive;
+	color: #e5e4d7;
+}
+p li{
+	color: blue;
+}
